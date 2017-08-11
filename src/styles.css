@@ -1,0 +1,12 @@
+body{
+  background: #E4E4E4;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+/*Principales Estilos*/
+.floatL{
+  float: left;
+}
+.floatR{
+  float: right;
+}/* You can add global styles to this file, and also import other style files */

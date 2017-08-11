@@ -1,0 +1,62 @@
+/*Estilo del buscar*/
+.iconbuscar{
+  color: orange;
+  font-weight: bold;
+  position: relative;
+  margin-left: 2px;
+}
+
+.buscar i{
+  position: absolute;
+}
+
+.inpuTBuscar{
+  width: 60%;
+  height: 35px;
+  border: none;
+}
+
+::placeholder{
+  color: #d5d5d5;
+}
+
+.lupa{
+  background: white;
+  border: none;
+
+}
+
+/*estilo del boton*/
+.botonnuevcontacto{
+  border-radius: 3px 3px 3px 3px;
+  -moz-border-radius:  3px 3px 3px 3px;
+  -webkit-border-radius:  3px 3px 3px 3px;
+  border: 0px solid #000000;
+  width: 70%;
+  background: #eea236;
+  border: 0px;
+  height: 35px;
+  float: right;
+
+}
+
+.LetraBotonNuevo{
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: 2px;
+  left:40px;
+  text-align: center;
+}
+
+.icon-nuevoConta{
+  left: 25px;
+  font-size: 10px;
+
+}
+.iconCir{
+  color: white;
+}
+.iconPlus{
+  color: #eea236;
+}

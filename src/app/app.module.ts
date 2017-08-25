@@ -1,10 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
+import { HttpModule } from '@angular/http';
 
-import {BusquedaBtnAgregarComponent} from "./Busqueda_BtnAgregar/Busqueda_BtnAgregar.component";
-import {GrillaContactosComponent} from "./GrillaContactos/GrillaContactos.component"
+// Service
+import { contactoService } from './services/service.contactos';
+
+// Component
+import {BusquedaBtnAgregarComponent} from './Busqueda_BtnAgregar/Busqueda_BtnAgregar.component';
+import {GrillaContactosComponent} from './GrillaContactos/GrillaContactos.component';
 
 @NgModule({
   declarations: [
@@ -13,9 +17,12 @@ import {GrillaContactosComponent} from "./GrillaContactos/GrillaContactos.compon
     GrillaContactosComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule,
   ],
-  providers: [],
+  providers: [
+    contactoService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
